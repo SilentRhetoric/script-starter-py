@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "script-starter-py"
+version = "0.1.0"
+description = "Algorand smart contracts"
+authors = ["Brian Whippo <brian.whippo@algorand.foundation>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+algokit-utils = "^3.0.0"
+python-dotenv = "^1.0.0"
+algorand-python = "^2.0.0"
+algorand-python-testing = "^0.4.0"
+
+[tool.poetry.group.dev.dependencies]
+algokit-client-generator = "^2.0.0"
+puyapy = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
